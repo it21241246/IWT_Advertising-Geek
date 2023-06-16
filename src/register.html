@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <title>My Shoping Carts</title>
+ </head>
+ <link rel="stylesheet" href="styles/styles.css">
+<body>
+    <img class ="logo" src="images/download.png" width="200"height="200 alt="Shoping cart">
+    <center>
+    <h1>Shoping Cart</h1>
+    <h2>Online Shoping Store</h2>
+    </center>
+    <hr class ="hr1">
+    <ul class ="menu">
+       <li class ="menu"><a href ="index.html">Home</a></li>
+       <li class ="menu"><a href ="news.html">News</a></li>
+       <li class ="menu"><a href ="register.html">Cotacts</a></li>
+       <li class ="menu"><a href ="https://courseweb.sliit.lk/">Aout Us</a></li>
+    </ul>
+
+    <h1 class="center">Regsitration Form</h1>
+<br>
+    <form action="" target="_self" method="post" onsubmit="">
+
+        <label>First Name</label>
+        <input type="text" name="firstname" placeholder="First Name" required><br><br>
+        <label>Last Name</label>
+        <input type="text" name="lastname" placeholder="Last Name" required><br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" checked>Male 
+        <input type="radio" name="gender" id="no-male" >Female <br><br>
+        <label>Phone number</label>
+        <input type="phone" name="mobile" pattern="[0-9]{10}" placeholder="0123456789" required><br><br>
+        <label>Email</label>
+        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br><br>
+        <label>Address</label><br>
+        <textarea name="address" rows="4" cols="50"></textarea><br><br>
+        <lable>DOB</lable><br>
+        <input type="date" name="birthday" required><br><br>
+        <label>Password</label>
+        <input type="password" name="password" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}" required><br>
+        <label>Re-enter Password</label>
+        <input type="password" name="reenterpassword" id="repwd"  required><br><br>
+
+    </form>
+  
+    <hr>
+     <center>
+    <h4 style="font-weight: bold; font-style: italic;">Created by - Minidu Tissera</h4>
+    <a href ="https://courseweb.sliit.lk/">Visit to our course</a>
+   </body> 
+</html>

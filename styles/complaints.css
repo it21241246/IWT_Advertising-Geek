@@ -1,0 +1,134 @@
+body {
+    background-image: url("../images/123.jpg");
+ }
+
+hr
+{
+ height:2px;
+ border-width:0;
+ color:#474848;
+ background-color:#f1f1f1;
+}
+
+
+ul.menu{
+
+     list-style-type: none;
+     margin: 0;
+     overflow: hidden;
+     
+  }    
+
+li.menu{
+     float: left;
+     padding:0px;
+  }
+
+
+
+li a{
+     color:white;
+     font-family: Poppins;
+     display:block;
+     text-align:center;
+     padding: 10px 25px;
+     text-decoration: red;
+  }   
+
+li a:hover{
+     opacity: 0.8;
+  }
+
+  .image{
+    width:60px;
+    float: right;
+    height: 60px;
+    padding-right: 30px;
+    padding-top: 1px;
+  
+  }
+
+  .b{
+    color: black;
+      display:block;
+      text-align:right;
+      text-decoration: red;
+      padding-right: 20px;
+  }
+
+.forum {
+  color: black;
+  
+  display:block;
+  text-align:center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  padding : 10px 10px ;
+  text-decoration: red;
+ 
+}
+
+.boarder{
+  border-style: solid;
+  margin-left: 300px;
+  margin-right: 300px;
+ 
+}
+
+.forum1 {
+    color: black;
+    background-color: darkgreen;
+    display:block;
+    text-align:left;
+    margin-top: 5px;
+    padding :10px 10px ;
+    text-decoration: red;
+    margin-right: 300px;
+    border-radius: 5px;
+  }
+
+  .forum2{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: darkgreen;
+    font-size: large;
+    cursor: pointer;
+  }
+  .submit:hover{
+    opacity: 0.8;
+  }
+  
+.c{
+  color: black;
+    display:block;
+    text-align: center;
+    text-decoration: red;
+    padding-right: 20px;
+    text-align: center;
+}
+
+h6{
+
+  font-size: 20px;
+  color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.b:hover{
+  opacity: 0.8;
+}

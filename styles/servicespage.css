@@ -1,0 +1,198 @@
+body{
+    background-image: url("../images/789.png");
+}
+
+h1{
+	display: block;
+ }
+ 
+ .tit{
+
+	font-family: Arial, Helvetica, sans-serif;
+ }
+	 
+
+ hr
+ {
+	 height:2px;
+	 border-width:0;
+	 color:#474848;
+	 background-color:#514f4f;
+ }
+ 
+ 
+ ul.menu{
+ 
+	   list-style-type: none;
+	   margin: 0;
+	   overflow: hidden;
+	   
+	}    
+ 
+ li.menu{
+	   float: left;
+	   padding:0px,0px,0px,0px;
+	}
+ 
+ 
+ 
+ li a{
+	   color:white;
+	   font-family: Poppins;
+	   display:block;
+	   text-align:center;
+	   padding: 10px 25px;
+	   text-decoration: red;
+	}   
+ 
+ li a:hover{
+	   opacity: 0.8;
+	}
+
+.pcktyp{
+
+text-align: center;
+font-size: 60px;
+color: rgb(52, 167, 6);
+font-family: Koulen , Arial;
+
+}
+
+.list{
+
+    color: #000;
+}
+
+
+.group1{
+
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 30px;
+    opacity: 0.7;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 5px;
+    width: 500px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+	margin-left: 85px;
+	margin-bottom: 50px;
+    
+
+}
+
+
+
+.button{
+
+
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    border-color:rgb(18, 128, 8);
+    margin-left: 160px;
+    margin-bottom: 20px;
+    box-shadow: 2px #000;
+    cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	border-width: 2px;
+
+
+}
+
+.button:hover{
+
+    opacity: 0.5;
+    color: rgb(77, 148, 33);;
+}
+.button:active{
+    background-color: beige;
+}
+
+.group{
+    display: block;
+   
+}
+
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 25s slider infinite;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+	}
+	.slid{
+		width: 800px;
+		margin-left: 600px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+		display: inline-block;
+  border-radius: 15px;
+
+
+
+
+	}
+	@keyframes slider{
+		0%{
+			left: 0;
+		}
+		20%{
+			left: 0;
+		}
+		25%{
+			left: -100%;
+		}
+		45%{
+			left: -100%;
+		}
+		50%{
+			left: -200%;
+		}
+		70%{
+			left: -200%;
+		}
+		75%{
+			left: -300%;
+		}
+		95%{
+			left: -300%;
+		}
+		100%{
+			left: -400%;
+		}
+
+	}
+	h6{
+
+		font-size: 20px;
+		color: #ccc;
+		font-family: Arial, Helvetica, sans-serif;
+	  }
+
+	.button1{
+
+		background-color: white;
+		border-radius: 15px;
+		text-align: center;
+	}
+
+	#login
+	{
+	  float:right;
+	  margin:30px 50px 0px 0px;
+	  width: 40px;
+	  height: 40px;
+	  background-color: white;
+	  border-radius: 10px;
+	}

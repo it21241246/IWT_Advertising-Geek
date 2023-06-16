@@ -1,0 +1,110 @@
+
+
+h1{
+	display: block;
+ }
+ 
+ .tit{
+
+	font-family: Arial, Helvetica, sans-serif;
+ }
+
+ #login
+ {
+   float:right;
+   margin:30px 50px 0px 0px;
+   width: 40px;
+   height: 40px;
+ }
+
+
+ hr
+ {
+	 height:2px;
+	 border-width:0;
+	 color:#474848;
+	 background-color:#514f4f;
+ }
+ 
+ 
+ ul.menu{
+ 
+	   list-style-type: none;
+	   margin: 0;
+	   overflow: hidden;
+	   
+	}    
+ 
+ li.menu{
+	   float: left;
+	   padding:0px,0px,0px,0px;
+	}
+ 
+ 
+ 
+ li a{
+	   color:white;
+	   font-family: Poppins;
+	   display:block;
+	   text-align:center;
+	   padding: 10px 25px;
+	   text-decoration: red;
+
+	}   
+ 
+ li a:hover{
+	   opacity: 0.8;
+	}
+
+ 
+
+  .header1 {
+font-family: Koulen;
+font-size: 50px;
+color: rgb(77, 148, 33);
+
+  }
+
+  .header2{
+
+    color: rgb(77, 148, 33);
+    font-size: 20px;
+    font-family: Poppins;
+  }
+
+.image{
+
+    width: 140px;
+    display: block;
+    margin-left: 880px;
+    margin-top: 130px;
+}
+.image:hover{
+    opacity: 0.9;
+}
+
+.text{
+
+    font-family: Poppins,Arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: darkgreen;
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 0.8;
+
+
+}
+
+.text:hover{
+        opacity: 0.6;
+}
+
+h6{
+
+
+    font-size: 20px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 190px;
+  }

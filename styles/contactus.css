@@ -1,0 +1,333 @@
+/* Css file */
+
+body {
+    background-image: url("../images/123.jpg"); /*BG file  */
+ }
+
+ #login /* ID login */
+ {
+   float:right;
+   margin:30px 50px 0px 0px;
+   width: 40px;
+   height: 40px;
+   background-color: white;
+   border-radius: 15px;
+ }
+
+ h1{
+	display: block;
+ }
+ 
+ .tit{
+
+	font-family: Arial, Helvetica, sans-serif;
+ }
+	 
+
+ hr
+ {
+	 height:2px;
+	 border-width:0;
+	 color:#474848;
+	 background-color:#514f4f;
+ }
+ 
+ 
+ ul.menu{
+ 
+	   list-style-type: none;
+	   margin: 0;
+	   overflow: hidden;
+	   
+	}    
+ 
+ li.menu{
+	   float: left;
+	   padding:0px,0px,0px,0px;
+	}
+ 
+ 
+ 
+ li a{
+	   color:white;
+	   font-family: Poppins;
+	   display:block;
+	   text-align:center;
+	   padding: 10px 25px;
+	   text-decoration: red;
+	}   
+ 
+ li a:hover{
+	   opacity: 0.8;
+	}
+
+ 
+
+  .header1 {
+font-family: Koulen;
+font-size: 50px;
+color: rgb(77, 148, 33);
+
+  }
+
+  .header2{
+
+    color: rgb(77, 148, 33);
+    font-size: 20px;
+    font-family: Poppins;
+  }
+
+.forum {
+  color: rgb(255, 255, 255);
+  background-color: rgb(254, 255, 255);
+  display:inline-block;
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding : 20px 20px ;
+  text-decoration: red;
+  border-radius: 10px;
+  opacity:0.9;
+  
+  
+ 
+}
+
+.forum1 {
+    color: black;
+    background-color: darkgreen;
+    display:block;
+    text-align:left;
+    margin-top: 5px;
+    padding :10px 10px ;
+    text-decoration: red;
+    opacity: 0.8;
+    border-radius: 10px;
+    
+  }
+
+  
+
+  .forum2{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit{
+    width: 100%;
+    padding: 15px 15px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: darkgreen;
+    opacity: 0.8;
+    border-radius: 15px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+  }
+  .submit:hover{
+
+  opacity: 0.6;
+  cursor: pointer;
+  }
+  
+  
+.boarder{
+  border-style: solid;
+  margin-left: 300px;
+  margin-right: 300px;
+
+}
+
+.b{
+  color: black;
+  display:block;
+  text-decoration: red;
+}
+
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 25s slider infinite;
+}
+#slider figure img{
+	width: 20%;
+	float: center;
+	}
+	.slid{
+		width: 600px;
+		margin-left: 1200px;
+		display: inline-block;
+  border-radius: 15px;
+  opacity: 0.8;
+
+
+
+	}
+	@keyframes slider{
+		0%{
+			left: 0;
+		}
+		20%{
+			left: 0;
+		}
+		25%{
+			left: -100%;
+		}
+		45%{
+			left: -100%;
+		}
+		50%{
+			left: -200%;
+		}
+		70%{
+			left: -200%;
+		}
+		75%{
+			left: -300%;
+		}
+		95%{
+			left: -300%;
+		}
+		100%{
+			left: -400%;
+		}
+
+	}
+  h6{
+
+    font-size: 20px;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.submit {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 40%; 
+  height: 50%; 
+  overflow: auto; 
+  background-color: rgb(250, 250, 250); 
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px; 
+}
+
+
+.content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  font-size: large;
+  border-radius: 20px;
+}
+
+
+
+#btn{
+
+width: 90px;
+height: 50px;
+border-radius: 10px;
+background-color: rgb(41, 179, 6);
+border-color: darkgreen;
+color: white;
+font-size: large;
+
+
+}
+
+#btn:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.feedbutton{
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+
+  cursor: pointer;
+  margin-top: -300px;
+  margin-left: 800px ;
+  display: inline-block;
+  font-size: large;
+  box-shadow: #000;
+  text-decoration: red;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  color: darkgreen;
+  font-weight: bold;
+  font-family: Poppins;
+
+
+}
+
+.combutton{
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+
+  cursor: pointer;
+  margin-top: -400px;
+  margin-left: 800px ;
+  display: inline-block;
+  font-size: large;
+  box-shadow: #000;
+  text-decoration: red;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: Poppins;
+
+
+}
+
+.feedbutton:hover{
+  opacity: 0.6;
+  border-color: none;
+}
+
+.combutton:hover{
+  opacity: 0.6;
+  border-color: none;
+}
+
+a{
+  text-decoration: red;
+}
+
+.image1{
+
+
+  display: inline-block;
+  width: 100px;
+  margin-left: 1300px;
+  margin-top: -520px;
+  border-radius: 60px;
+  opacity: 0.8;
+  box-shadow: rgb(123, 201, 75) 5px 5px;
+}
